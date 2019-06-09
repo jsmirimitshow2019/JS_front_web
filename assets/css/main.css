@@ -20,7 +20,8 @@ body {
 body{
   background-image: url("../img/background/backgroud.png");
   background-repeat: no-repeat;
-  background-position: 20%;
+  background-size: 100% 50%;
+  background-position: 0 70%;
 }
 h1, h2, h3, h4 {
   font-size: 38px;
@@ -68,7 +69,6 @@ a:not([href]):not([tabindex]) {
 
 .section-header {
   margin-bottom: 30px;
-  
 }
 
 .section-header p {
@@ -78,8 +78,6 @@ a:not([href]):not([tabindex]) {
 }
 
 .section-title {
-  margin-top: 300px;
-  margin-bottom: 30px;
   font-size: 55px;
   color: #FFE66D;
   display: inline-block;
@@ -87,15 +85,15 @@ a:not([href]):not([tabindex]) {
   position: relative;
 }
 .section-content {
-  font-size : 23px;
-  line-height: 1.3em;
-  margin-bottom: 50px;
+  font-size : 20px;
+  line-height: 2em;
+  margin-bottom: 30px;
   text-align: left;
 }
 .section-content-big {
   font-size : 30px;
-margin-bottom: 20px;
-text-align: left;
+  margin-bottom: 10px;
+  text-align: left;
 }
 .shape {
   height: 1px;
@@ -318,7 +316,23 @@ hr {
   position: absolute;
   z-index: 10;
   top: 65%;
-  left:5%;
+  left:20%;
+  font-size: 20px;
+  color : #000;
+}
+.services-text2{
+  position: absolute;
+  z-index: 10;
+  top: 65%;
+  left:15%;
+  font-size: 20px;
+  color : #000;
+}
+.services-text3{
+  position: absolute;
+  z-index: 10;
+  top: 65%;
+  left:13%;
   font-size: 20px;
   color : #000;
 }
@@ -494,31 +508,48 @@ hr {
 }
 
 /* ==========================================================================
-3. Hero Area
+3. game_info
 ========================================================================== */
-#hero-area {
+#game_info {
   min-height: 650px;
   position: relative;
   overflow: hidden;
   padding: 180px 0 80px;
 }
-
-#hero-area .contents .head-title {
-  color: #fff;
-  font-size: 42px;
-  font-weight: 700;
-  line-height: 60px;
-  margin-bottom: 10px;
+.games-item{
+  position: relative;
+  margin-inline: 10px;
+  display : inline-block;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  margin-bottom: 565px;
+}
+#icon_img1{
+  width: 200px;
+  height: 180px;
+}
+#icon_img2{
+  width: 200px;
+  height: 180px;
+}
+#icon_img3{
+  width: 200px;
+  height: 180px;
+}
+#icon_img4{
+  width: 200px;
+  height: 180px;
+}
+#icon_img5{
+  width: 200px;
+  height: 180px;
 }
 
-#hero-area .contents .header-button {
-  margin-top: 20px;
-  color: #fff;
-}
-
-#hero-area .contents .header-button .btn {
-  margin-right: 10px;
-}
 
 /* ==========================================================================
    game 
