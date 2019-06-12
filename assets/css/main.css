@@ -18,10 +18,10 @@ body {
   overflow-x: hidden;
 }
 body{
-  background-image: url("../img/background/backgroud.png");
+  background-image: url("../img/background/background.png");
   background-repeat: no-repeat;
-  background-size: 100% 50%;
-  background-position: 0 70%;
+  background-size: 100%;
+  background-position: 0 1400px;
 }
 h1, h2, h3, h4 {
   font-size: 38px;
@@ -75,6 +75,7 @@ a:not([href]):not([tabindex]) {
   text: center;
   font-weight: 400;
   line-height: 26px;
+  font-size: 20px;
 }
 
 .section-title {
@@ -250,7 +251,7 @@ hr {
   -moz-transition: all 0.3s ease-in-out 0s;
   -webkit-transition: all 0.3s ease-in-out 0s;
   -o-transition: all 0.3s ease-in-out 0s;
-  margin-bottom: 565px;
+  margin-bottom: 150px;
 }
 
 
@@ -324,7 +325,7 @@ hr {
   position: absolute;
   z-index: 10;
   top: 65%;
-  left:15%;
+  left:13%;
   font-size: 20px;
   color : #000;
 }
@@ -514,11 +515,13 @@ hr {
   min-height: 650px;
   position: relative;
   overflow: hidden;
-  padding: 180px 0 80px;
+  padding: 100px 0 100px;
+}
+.games-itmes{
+    margin : 400px 0 0 0 ;
 }
 .games-item{
   position: relative;
-  margin-inline: 10px;
   display : inline-block;
   width: 200px;
   height: 200px;
@@ -527,27 +530,30 @@ hr {
   -moz-transition: all 0.3s ease-in-out 0s;
   -webkit-transition: all 0.3s ease-in-out 0s;
   -o-transition: all 0.3s ease-in-out 0s;
-  margin-bottom: 565px;
 }
 #icon_img1{
-  width: 200px;
-  height: 180px;
+  width: 140px;
+  height: 170px;
 }
 #icon_img2{
-  width: 200px;
-  height: 180px;
+  width: 140px;
+  height: 170px;
+  bottom: 0;
 }
 #icon_img3{
-  width: 200px;
-  height: 180px;
+  width: 170px;
+  height: 140px;
+  bottom: 0;
 }
 #icon_img4{
-  width: 200px;
-  height: 180px;
+  width: 140px;
+  height: 170px;
+  bottom: 0;
 }
 #icon_img5{
-  width: 200px;
-  height: 180px;
+  width: 170px;
+  height: 140px;
+  bottom: 0;
 }
 
 /* ==========================================================================
@@ -584,6 +590,7 @@ hr {
 
 #game {
   text-align: center;
+  margin-bottom: 100px;
 }
 
 #game .title {
@@ -618,7 +625,12 @@ hr {
 #game .active {
   z-index: 99999;
 }
-
+#game-text {
+  margin: 50px;
+}
+#game-text p {
+  font-size: 20px;
+}
 .testimonial {
   position: relative;
   background-color: #fff;
