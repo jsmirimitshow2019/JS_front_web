@@ -139,9 +139,15 @@ a:not([href]):not([tabindex]) {
 }
 
 .btn:hover {
-  box-shadow: none;
+  box-shadow: 0 10px 10px 5px #000;
   outline: none;
-  color: #fff;
+  
+}
+.btn p{
+  font-size: 40px;
+}
+.btn p:hover{
+  color : #000;
 }
 button:focus {
   outline: none !important;
@@ -512,13 +518,13 @@ hr {
 3. game_info
 ========================================================================== */
 #game_info {
-  min-height: 650px;
+  min-height: 550px;
   position: relative;
   overflow: hidden;
-  padding: 100px 0 100px;
+  padding: 80px 0 100px;
 }
 .games-itmes{
-    margin : 400px 0 0 0 ;
+    margin : 200px 0 -100px 0 ;
 }
 .games-item{
   position: relative;
