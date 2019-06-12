@@ -20,7 +20,7 @@ body {
 body{
   background-image: url("../img/background/backgroud.png");
   background-repeat: no-repeat;
-  background-position: 20%;
+  background-position: center center;
 }
 h1, h2, h3, h4 {
   font-size: 38px;
@@ -234,7 +234,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .section-padding {
-  padding: 60px 0;
+  padding: 30px 0;
 }
 
 hr {
@@ -318,7 +318,7 @@ hr {
   position: absolute;
   z-index: 10;
   top: 65%;
-  left:5%;
+  left: 10%;
   font-size: 20px;
   color : #000;
 }
@@ -496,14 +496,14 @@ hr {
 /* ==========================================================================
 3. Hero Area
 ========================================================================== */
-#hero-area {
+#game_info {
   min-height: 650px;
   position: relative;
   overflow: hidden;
   padding: 180px 0 80px;
 }
 
-#hero-area .contents .head-title {
+#game_info .contents .head-title {
   color: #fff;
   font-size: 42px;
   font-weight: 700;
@@ -511,12 +511,12 @@ hr {
   margin-bottom: 10px;
 }
 
-#hero-area .contents .header-button {
+#game_info .contents .header-button {
   margin-top: 20px;
   color: #fff;
 }
 
-#hero-area .contents .header-button .btn {
+#game_info .contents .header-button .btn {
   margin-right: 10px;
 }
 
