@@ -85,16 +85,20 @@ a:not([href]):not([tabindex]) {
   font-weight: 700;
   position: relative;
 }
-.section-content {
-  font-size : 20px;
-  line-height: 2em;
-  margin-bottom: 30px;
-  text-align: left;
+.section-content p{
+  font-size : 23px;
+  line-height: 1.6em;
+  margin-bottom: 40px;
+  text-align: center;
 }
-.section-content-big {
+.section-content-big p{
   font-size : 30px;
-  margin-bottom: 10px;
-  text-align: left;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.section-content-big p:hover{
+  font-size : 32px;
+  color : #FFE66D;
 }
 .shape {
   height: 1px;
@@ -239,7 +243,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .section-padding {
-  padding: 60px 0;
+  padding: 50px 0;
 }
 
 hr {
@@ -259,7 +263,9 @@ hr {
   -o-transition: all 0.3s ease-in-out 0s;
   margin-bottom: 150px;
 }
-
+.services-item:hover{
+  margin-bottom: 130px;
+}
 
 .services-item #img1{
   position: absolute;
@@ -269,7 +275,6 @@ hr {
   width: 110px;
   height: 232px;
 }
-
 .services-item #img2{
   position: absolute;
   bottom : 40%;
@@ -286,6 +291,7 @@ hr {
   width: 188px;
   height: 291px;
 }
+
 .services-content1 {
   background-image: url('../img/background/cat1_background.png');
   background-repeat: no-repeat;
@@ -521,10 +527,10 @@ hr {
   min-height: 550px;
   position: relative;
   overflow: hidden;
-  padding: 80px 0 100px;
+  padding: 50px 0 100px;
 }
 .games-itmes{
-    margin : 200px 0 -100px 0 ;
+    margin : 300px 0 -100px 0 ;
 }
 .games-item{
   position: relative;
@@ -540,28 +546,62 @@ hr {
 #icon_img1{
   width: 140px;
   height: 170px;
+  transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
 }
 #icon_img2{
   width: 140px;
   height: 170px;
   bottom: 0;
+  transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
 }
 #icon_img3{
   width: 170px;
   height: 140px;
   bottom: 0;
+  transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
 }
 #icon_img4{
   width: 140px;
   height: 170px;
   bottom: 0;
+  transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
 }
 #icon_img5{
   width: 170px;
   height: 140px;
   bottom: 0;
+  transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
 }
-
+#icon_img1:hover{
+  transform:scale(1.2);
+}
+#icon_img2:hover{
+  transform:scale(1.2);
+}
+#icon_img3:hover{
+  transform:scale(1.2);
+}
+#icon_img4:hover{
+  transform:scale(1.2);
+}
+#icon_img5:hover{
+  transform:scale(1.2);
+}
 /* ==========================================================================
 3. Hero Area
 ========================================================================== */
@@ -631,11 +671,11 @@ hr {
 #game .active {
   z-index: 99999;
 }
-#game-text {
+.game-text {
   margin: 50px;
 }
-#game-text p {
-  font-size: 20px;
+.game-text p {
+  font-size: 30px;
 }
 .testimonial {
   position: relative;
