@@ -34,10 +34,10 @@ h1, h2, h3, h4 {
 }
 .contents img{
   position: absolute;
-  margin-left: 400px;
+  margin-left: 350px;
   top : 0px;
-  width : 400px;
-  height: 400px;
+  width : 380px;
+  height: 380px;
 }
 a {
   -webkit-transition: all 0.2s linear;
