@@ -32,9 +32,10 @@ h1, h2, h3, h4 {
 .contents{
   display: inline-block;
 }
-.contents img{
+.contents-img{
+  float: left;
   position: absolute;
-  margin-left: 350px;
+  left : 100%;
   top : 0px;
   width : 380px;
   height: 380px;
